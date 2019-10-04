@@ -1,0 +1,9 @@
+language: bash
+
+os:
+  - linux-ppc64le
+  - linux
+  
+ script:
+   - uname -a
+   - cat /etc/issue
